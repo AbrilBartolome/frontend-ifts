@@ -9,7 +9,6 @@ function areaRectangular(largo, ancho) {
     return calcularArea;
 }
 
-// Ejemplos de uso
 console.log("Solución:");
 console.log(areaRectangular(15, 23));   
 console.log(areaRectangular(100, 70));  
@@ -53,7 +52,7 @@ function invertirPalabra(palabraParaInvertir) {
 
     for (let letra of palabraParaInvertir) {
 
-	//Agregar cada carácter al inicio de la nueva cadena
+	//Agregar cada caracter al inicio de la nueva cadena
 
         palabraInvertida = letra + palabraInvertida;
     }
@@ -73,7 +72,7 @@ function esPalindromo(descubrePalabra) {
     //Convierto todo a minúsculas
     let palabraTransformada = descubrePalabra.toLowerCase()
 
-     //Elimino caracteres alafanumericos
+     //Elimino caracteres alafanuméricos
      let palabraObtenida = palabraTransformada.replace(/[^A-Za-z0-9]/g, '');
 
     // Inicializar los índices para comparar los caracteres desde los extremos
@@ -93,12 +92,11 @@ function esPalindromo(descubrePalabra) {
     return true;
 }
 
-// Ejemplos de prueba
+
 console.log(esPalindromo("o rey, o joyero"));  
 console.log(esPalindromo("Teléfono"));  
 console.log(esPalindromo("aten al planeta"));  
 console.log(esPalindromo("yo soy"));  
-
 
 
 //Ejercicio 5: Crear un programa para convertir la edad de un perro a años humanos
